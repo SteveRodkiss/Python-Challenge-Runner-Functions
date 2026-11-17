@@ -1,0 +1,636 @@
+[
+  {
+    "name": "Add Two",
+    "function": "add_two",
+    "code": "\"\"\"Write a function called add_two() that takes a single parameter called num and returns num + 2.\"\"\"\n\ndef add_two(num):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "5"
+        ],
+        "expected": "7"
+      },
+      {
+        "args": [
+          "0"
+        ],
+        "expected": "2"
+      },
+      {
+        "args": [
+          "-3"
+        ],
+        "expected": "-1"
+      },
+      {
+        "args": [
+          "100"
+        ],
+        "expected": "102"
+      }
+    ]
+  },
+  {
+    "name": "Subtract One",
+    "function": "subtract_one",
+    "code": "\"\"\"Write a function called subtract_one() that takes a parameter called num and returns num minus 1.\"\"\"\n\ndef subtract_one(num):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "5"
+        ],
+        "expected": "4"
+      },
+      {
+        "args": [
+          "0"
+        ],
+        "expected": "-1"
+      },
+      {
+        "args": [
+          "-3"
+        ],
+        "expected": "-4"
+      },
+      {
+        "args": [
+          "1"
+        ],
+        "expected": "0"
+      }
+    ]
+  },
+  {
+    "name": "Double It",
+    "function": "double",
+    "code": "\"\"\"Write a function called double() that takes a parameter called num and returns num multiplied by 2.\"\"\"\n\ndef double(num):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "4"
+        ],
+        "expected": "8"
+      },
+      {
+        "args": [
+          "0"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "-5"
+        ],
+        "expected": "-10"
+      },
+      {
+        "args": [
+          "2.5"
+        ],
+        "expected": "5.0"
+      }
+    ]
+  },
+  {
+    "name": "Triple It",
+    "function": "triple",
+    "code": "\"\"\"Write a function called triple() that takes a parameter called num and returns num multiplied by 3.\"\"\"\n\ndef triple(num):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "4"
+        ],
+        "expected": "12"
+      },
+      {
+        "args": [
+          "0"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "-2"
+        ],
+        "expected": "-6"
+      },
+      {
+        "args": [
+          "1.5"
+        ],
+        "expected": "4.5"
+      }
+    ]
+  },
+  {
+    "name": "Square a Number",
+    "function": "square",
+    "code": "\"\"\"Write a function called square() that takes a parameter called num and returns num multiplied by itself.\"\"\"\n\ndef square(num):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "3"
+        ],
+        "expected": "9"
+      },
+      {
+        "args": [
+          "0"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "-4"
+        ],
+        "expected": "16"
+      },
+      {
+        "args": [
+          "1.5"
+        ],
+        "expected": "2.25"
+      }
+    ]
+  },
+  {
+    "name": "Say Hello",
+    "function": "greet",
+    "code": "\"\"\"Write a function called greet() that takes a parameter called name and returns the text \"Hello, \" followed by the name and an exclamation mark. For example greet(\"Sam\") returns \"Hello, Sam!\". Hint: you might want to use f-strings\"\"\"\n\ndef greet(name):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "'Sam'"
+        ],
+        "expected": "'Hello, Sam!'"
+      },
+      {
+        "args": [
+          "'Ana'"
+        ],
+        "expected": "'Hello, Ana!'"
+      },
+      {
+        "args": [
+          "''"
+        ],
+        "expected": "'Hello, !'"
+      }
+    ]
+  },
+  {
+    "name": "Length of Text",
+    "function": "text_length",
+    "code": "\"\"\"Write a function called text_length() that takes a string called text and returns the number of characters in it. Count spaces too. Hint: use len()\"\"\"\n\ndef text_length(text):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "'cat'"
+        ],
+        "expected": "3"
+      },
+      {
+        "args": [
+          "''"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "'a b'"
+        ],
+        "expected": "3"
+      },
+      {
+        "args": [
+          "'Python'"
+        ],
+        "expected": "6"
+      }
+    ]
+  },
+  {
+    "name": "Add Two Numbers",
+    "function": "add",
+    "code": "\"\"\"Write a function called add() that takes two parameters called a and b and returns their sum.\"\"\"\n\ndef add(a, b):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "1",
+          "2"
+        ],
+        "expected": "3"
+      },
+      {
+        "args": [
+          "10",
+          "-4"
+        ],
+        "expected": "6"
+      },
+      {
+        "args": [
+          "0",
+          "0"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "2.5",
+          "0.5"
+        ],
+        "expected": "3.0"
+      }
+    ]
+  },
+  {
+    "name": "Subtract Two Numbers",
+    "function": "subtract",
+    "code": "\"\"\"Write a function called subtract() that takes two numbers, a and b, and returns a minus b.\"\"\"\n\ndef subtract(a, b):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "8",
+          "3"
+        ],
+        "expected": "5"
+      },
+      {
+        "args": [
+          "3",
+          "8"
+        ],
+        "expected": "-5"
+      },
+      {
+        "args": [
+          "0",
+          "0"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "-2",
+          "-5"
+        ],
+        "expected": "3"
+      }
+    ]
+  },
+  {
+    "name": "Multiply Two Numbers",
+    "function": "multiply",
+    "code": "\"\"\"Write a function called multiply() that takes two numbers, a and b, and returns a multiplied by b.\"\"\"\n\ndef multiply(a, b):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "3",
+          "4"
+        ],
+        "expected": "12"
+      },
+      {
+        "args": [
+          "7",
+          "0"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "-2",
+          "5"
+        ],
+        "expected": "-10"
+      },
+      {
+        "args": [
+          "1.5",
+          "2"
+        ],
+        "expected": "3.0"
+      }
+    ]
+  },
+  {
+    "name": "Is It Positive?",
+    "function": "is_positive",
+    "code": "\"\"\"Write a function called is_positive() that takes a parameter called num and returns True if num is greater than zero, otherwise False. Zero is not positive.\"\"\"\n\ndef is_positive(num):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "5"
+        ],
+        "expected": "True"
+      },
+      {
+        "args": [
+          "0"
+        ],
+        "expected": "False"
+      },
+      {
+        "args": [
+          "-5"
+        ],
+        "expected": "False"
+      },
+      {
+        "args": [
+          "1"
+        ],
+        "expected": "True"
+      }
+    ]
+  },
+  {
+    "name": "Is It Even?",
+    "function": "is_even",
+    "code": "\"\"\"Write a function called is_even() that takes a parameter called num and returns True if num is even, otherwise False. Hint: Modulus by 2 (num % 2) will be == 0 only if it is even\"\"\"\n\ndef is_even(num):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "2"
+        ],
+        "expected": "True"
+      },
+      {
+        "args": [
+          "7"
+        ],
+        "expected": "False"
+      },
+      {
+        "args": [
+          "0"
+        ],
+        "expected": "True"
+      },
+      {
+        "args": [
+          "-4"
+        ],
+        "expected": "True"
+      },
+      {
+        "args": [
+          "-3"
+        ],
+        "expected": "False"
+      }
+    ]
+  },
+  {
+    "name": "Bigger Number",
+    "function": "bigger",
+    "code": "\"\"\"Write a function called bigger() that takes two numbers, a and b, and returns the larger one.\"\"\"\n\ndef bigger(a, b):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "3",
+          "9"
+        ],
+        "expected": "9"
+      },
+      {
+        "args": [
+          "9",
+          "3"
+        ],
+        "expected": "9"
+      },
+      {
+        "args": [
+          "-1",
+          "-5"
+        ],
+        "expected": "-1"
+      },
+      {
+        "args": [
+          "4",
+          "4"
+        ],
+        "expected": "4"
+      }
+    ]
+  },
+  {
+    "name": "Smaller Number",
+    "function": "smaller",
+    "code": "\"\"\"Write a function called smaller() that takes two numbers, a and b, and returns the smaller one.\"\"\"\n\ndef smaller(a, b):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "3",
+          "9"
+        ],
+        "expected": "3"
+      },
+      {
+        "args": [
+          "9",
+          "3"
+        ],
+        "expected": "3"
+      },
+      {
+        "args": [
+          "-1",
+          "-5"
+        ],
+        "expected": "-5"
+      },
+      {
+        "args": [
+          "4",
+          "4"
+        ],
+        "expected": "4"
+      }
+    ]
+  },
+  {
+    "name": "Can You Vote?",
+    "function": "can_vote",
+    "code": "\"\"\"Write a function called can_vote() that takes a parameter called age and returns True if age is 18 or more, otherwise False.\"\"\"\n\ndef can_vote(age):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "20"
+        ],
+        "expected": "True"
+      },
+      {
+        "args": [
+          "17"
+        ],
+        "expected": "False"
+      },
+      {
+        "args": [
+          "18"
+        ],
+        "expected": "True"
+      },
+      {
+        "args": [
+          "0"
+        ],
+        "expected": "False"
+      }
+    ]
+  },
+  {
+    "name": "Repeat Text",
+    "function": "shout",
+    "code": "\"\"\"Write a function called shout() that takes a parameter called word and returns the word in capital letters with three exclamation marks added to the end. For example shout(\"hey\") returns \"HEY!!!\".\"\"\"\n\ndef shout(word):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "'hey'"
+        ],
+        "expected": "'HEY!!!'"
+      },
+      {
+        "args": [
+          "'Python'"
+        ],
+        "expected": "'PYTHON!!!'"
+      },
+      {
+        "args": [
+          "'a'"
+        ],
+        "expected": "'A!!!'"
+      }
+    ]
+  },
+  {
+    "name": "Sum of a List",
+    "function": "total",
+    "code": "\"\"\"Write a function called total() that takes a list of numbers called numbers and returns the sum of all of them. An empty list returns 0.\"\"\"\n\ndef total(numbers):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "[1, 2, 3]"
+        ],
+        "expected": "6"
+      },
+      {
+        "args": [
+          "[]"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "[10]"
+        ],
+        "expected": "10"
+      },
+      {
+        "args": [
+          "[-1, 1, 5]"
+        ],
+        "expected": "5"
+      }
+    ]
+  },
+  {
+    "name": "Reverse Text",
+    "function": "reverse_text",
+    "code": "\"\"\"Write a function called reverse_text() that takes a string called text and returns its characters in reverse order. For example reverse_text(\"cat\") returns \"tac\".\"\"\"\n\ndef reverse_text(text):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "'cat'"
+        ],
+        "expected": "'tac'"
+      },
+      {
+        "args": [
+          "''"
+        ],
+        "expected": "''"
+      },
+      {
+        "args": [
+          "'a'"
+        ],
+        "expected": "'a'"
+      },
+      {
+        "args": [
+          "'Hello world'"
+        ],
+        "expected": "'dlrow olleH'"
+      }
+    ]
+  },
+  {
+    "name": "Count Vowels",
+    "function": "count_vowels",
+    "code": "\"\"\"Write a function called count_vowels() that takes a string called text and returns how many vowels (a, e, i, o, u) it contains. Ignore upper or lower case.\"\"\"\n\ndef count_vowels(text):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "'hello'"
+        ],
+        "expected": "2"
+      },
+      {
+        "args": [
+          "'sky'"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "'AEIOU'"
+        ],
+        "expected": "5"
+      },
+      {
+        "args": [
+          "''"
+        ],
+        "expected": "0"
+      }
+    ]
+  },
+  {
+    "name": "Count Even Numbers",
+    "function": "count_even",
+    "code": "\"\"\"Write a function called count_even() that takes a list of whole numbers called numbers and returns how many of them are even. An empty list returns 0.\"\"\"\n\ndef count_even(numbers):\n    # Write your code here\n    pass\n",
+    "tests": [
+      {
+        "args": [
+          "[1, 2, 3, 4]"
+        ],
+        "expected": "2"
+      },
+      {
+        "args": [
+          "[]"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "[1, 3, 5]"
+        ],
+        "expected": "0"
+      },
+      {
+        "args": [
+          "[0, -2, 2, 2]"
+        ],
+        "expected": "4"
+      }
+    ]
+  }
+]
